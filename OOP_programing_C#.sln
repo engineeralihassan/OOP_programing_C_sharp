@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_programing_C#", "OOP_programing_C#\OOP_programing_C#.csproj", "{6EAC1F6D-CD2B-49BB-82CB-A52CEF1BF6F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01OOP_programing_C#", "OOP_programing_C#\01OOP_programing_C#.csproj", "{6EAC1F6D-CD2B-49BB-82CB-A52CEF1BF6F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "accessspecifiers2", "accessspecifiers2\accessspecifiers2.csproj", "{14FF09C9-0A5B-4640-9CB9-17879E238A5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02accessspecifiers2", "accessspecifiers2\02accessspecifiers2.csproj", "{14FF09C9-0A5B-4640-9CB9-17879E238A5F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{5D236A48-1547-41D8-8C58-C8B4FF857C9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03Encapsulation", "Encapsulation\03Encapsulation.csproj", "{5D236A48-1547-41D8-8C58-C8B4FF857C9E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorphism", "Polimorphism\Polimorphism.csproj", "{A259104F-28EE-40AD-9FAC-AE1E72C22E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04Polimorphism", "Polimorphism\04Polimorphism.csproj", "{A259104F-28EE-40AD-9FAC-AE1E72C22E8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{FCD4B58A-1E5A-45A5-B0F7-4015EF02C7FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05Delegates", "Delegates\05Delegates.csproj", "{FCD4B58A-1E5A-45A5-B0F7-4015EF02C7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnounimouseFunction", "AnounimouseFunction\AnounimouseFunction.csproj", "{E993176A-1669-4179-9B72-D067CB3BFA79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06AnounimouseFunction", "AnounimouseFunction\06AnounimouseFunction.csproj", "{E993176A-1669-4179-9B72-D067CB3BFA79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

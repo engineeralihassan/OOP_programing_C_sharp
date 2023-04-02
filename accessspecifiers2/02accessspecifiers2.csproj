@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OOP_programing_C#\OOP_programing_C#.csproj" />
+    <ProjectReference Include="..\OOP_programing_C#\01OOP_programing_C#.csproj" />
   </ItemGroup>
 
 </Project>
