@@ -45,53 +45,77 @@ namespace _08_Generics
     ///////////////////////////////////////
     // Generics in classes
 
-    /// Generics are used to make functions class which accept all kinds of data
-    class Example<T>
-    {
-        T box;
-        T age;
-    
-        public  Example(T a)
-        {
-            this.box = a;
-        }
-        public T getBox()
-        {
-            return this.box;
-        }
-        // Generics properties
-        public T Age
-        {
-            set
-            {
-                this.age = value;
+    /// Generics are used to make functions class which accept
+    /// all kinds of data
+    /* class Example<T>
+     {
+         T box;
+         T age;
 
-            }
-            get
-            {
-                return this.age ;
+         public  Example(T a)
+         {
+             this.box = a;
+         }
+         public T getBox()
+         {
+             return this.box;
+         }
+         // Generics properties
+         public T Age
+         {
+             set
+             {
+                 this.age = value;
 
-            }
+             }
+             get
+             {
+                 return this.age ;
 
-
-
-        }
-
-    }
+             }
 
 
+
+         }
+
+     }
+
+
+
+     class Program
+     {
+         static void Main(string[] args)
+         {
+             Example<int> e = new Example<int>(20);
+             Console.WriteLine(e.getBox());
+             Example<string> e1 = new Example<string>("Ali Hassan");
+             Console.WriteLine(e1.getBox());
+             e.Age = 21;
+             Console.WriteLine(e.Age);
+
+         }
+     }
+     */
+    ///////////////////////////////////////////////////////
+    // Collections in c#
+    // Generics and non Generics
 
     class Program
     {
         static void Main(string[] args)
         {
-            Example<int> e = new Example<int>(20);
-            Console.WriteLine(e.getBox());
-            Example<string> e1 = new Example<string>("Ali Hassan");
-            Console.WriteLine(e1.getBox());
-            e.Age = 21;
-            Console.WriteLine(e.Age);
-         
+            Console.WriteLine("Collections in C#");
+            int[] arr = new int[4];
+            arr[1] = 17;
+            arr[2] = 11;
+            arr[3] = 14;
+            arr[0] = 189;
+            Array.Resize(ref arr, 8);
+            arr[6] = 112;
+            arr[5] = 124;
+            arr[4] = 1289;
+            Console.WriteLine(arr[6]);
+
         }
     }
 }
