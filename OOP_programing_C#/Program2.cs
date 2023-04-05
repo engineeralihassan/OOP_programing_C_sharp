@@ -587,6 +587,54 @@ namespace OOP_programing_C_
 
         }
         */
+    /////
+   //  Multiple inheritance using interfaces  
+
+    class person
+    {
+        public void show()
+        {
+            Console.WriteLine("This is the person classs methods");
+        }
+    }
+    interface Teacher
+    {
+        void show();
+    }
+    class student : person , Teacher  // this is error ic case of two base class
+ {
+         void Teacher.show()
+        {
+
+            Console.WriteLine("This is the explanation of interface methods");
+        }
+
+
+    }
+
+    class Program2
+    {
+        static void Main(string[] args)
+        {
+            
+          
+
+            Console.WriteLine("Ali Never giv up one day success is knock on your door");
+            student n = new student();
+           
+            n.show();
+            Teacher e = new student();
+            e.show();
+
+
+
+        }
+
+
+
+    }
+
+
     ///////////////////////////////////////////////
     ///// consttructors in inheritance
     ///
@@ -629,7 +677,7 @@ namespace OOP_programing_C_
     // Public =  acceess every where in the project
     // private = bydefualt = not access outside the class
     //
-
+    /*
     class ParentClass
     {
         public int publicVar = 1;
@@ -703,5 +751,5 @@ namespace OOP_programing_C_
 
 
     }
-
+    */
 }
