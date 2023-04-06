@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-Structures", "16-Structu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-File Handling", "17-File Handling\17-File Handling.csproj", "{C5597C67-75F9-4776-A54B-1611E63F42DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-Boxing-unBoxing", "18-Boxing-unBoxing\18-Boxing-unBoxing.csproj", "{FCBCC1B2-B9FF-493C-AD57-351DEBEB49B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C5597C67-75F9-4776-A54B-1611E63F42DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5597C67-75F9-4776-A54B-1611E63F42DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5597C67-75F9-4776-A54B-1611E63F42DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBCC1B2-B9FF-493C-AD57-351DEBEB49B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBCC1B2-B9FF-493C-AD57-351DEBEB49B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBCC1B2-B9FF-493C-AD57-351DEBEB49B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBCC1B2-B9FF-493C-AD57-351DEBEB49B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
