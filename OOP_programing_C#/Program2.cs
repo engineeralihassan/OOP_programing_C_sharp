@@ -128,7 +128,8 @@ namespace OOP_programing_C_
             */
 
     ///////////////////////////////////////////////////
-    // Static and instance methods variables || constructors || Copy constructor
+    // Static and instance methods variables
+    // || constructors || Copy constructor
     /*
      class Student
      {
